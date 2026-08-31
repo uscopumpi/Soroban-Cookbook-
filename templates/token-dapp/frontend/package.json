@@ -4,8 +4,8 @@
   "private": true,
   "description": "Full-stack Soroban Token dApp starter template with Freighter Wallet integration",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
