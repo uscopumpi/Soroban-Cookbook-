@@ -13,7 +13,6 @@ soroban-ledger*.json
 *.optimized.wasm
 
 # IDE
-.vscode/
 .idea/
 *.iml
 *.swp
@@ -35,6 +34,7 @@ tests/fuzz/corpus/
 # Node / webapp
 webapp/node_modules/
 
+temp_auto_push.bat
 # Local binaries (e.g. accidental `typos` copy in repo root)
 /typos
 
@@ -72,3 +72,5 @@ GEMINI.md
 .GITHUB_ISSUES_BATCH_REPORT.md
 issues.md
 .opencode
+.gitignore
+branch_structure.json
